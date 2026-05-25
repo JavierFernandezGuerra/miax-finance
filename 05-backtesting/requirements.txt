@@ -1,0 +1,13 @@
+# Backtesting avanzado — Momentum sobre el S&P 500
+# Notebooks 01-05 (carga, EDA, estrategia, ejecución/costes, Monte Carlo)
+
+pandas>=2.0,<3
+numpy>=1.24,<3
+matplotlib>=3.7,<4
+seaborn>=0.13,<1
+yfinance>=0.2.36
+pyarrow>=14
+
+# Entorno
+ipykernel>=6.25
+jupyter>=1.0

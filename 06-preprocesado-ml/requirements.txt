@@ -1,0 +1,13 @@
+# Requisitos para ejecutar: Preprocesado_ML_Financiero.ipynb
+# Python recomendado: 3.10+ (probado en 3.13.5, metadata del notebook: 3.13.7)
+# Kernel esperado: python3 (ipykernel)
+
+numpy==2.4.2
+pandas==2.3.3
+matplotlib==3.10.8
+requests==2.32.5
+scipy==1.17.0
+scikit-learn==1.8.0
+statsmodels==0.14.6
+ipykernel==7.2.0
+jupyterlab==4.5.4

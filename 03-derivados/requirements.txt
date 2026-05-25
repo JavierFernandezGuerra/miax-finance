@@ -1,0 +1,19 @@
+# Dependencies for delta_hedged_straddle_spy.ipynb
+# Options strategy: long straddle delta-hedged on SPY (Black-Scholes)
+# with optional Interactive Brokers (TWS / IB Gateway) connectivity.
+
+# Datos y computación numérica
+numpy>=1.24,<3
+pandas>=2.0,<3
+scipy>=1.11,<2
+
+# Visualización
+matplotlib>=3.7,<4
+
+# IBKR (opcional: solo si EXECUTE_ORDERS=True para conectar a TWS / Gateway)
+ib_insync>=0.9.86
+nest_asyncio>=1.5.6
+
+# Entorno
+ipykernel>=6.25
+jupyter>=1.0

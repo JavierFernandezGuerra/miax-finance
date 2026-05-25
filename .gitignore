@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+.env
+
+# IDE / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Datos crudos (no se commitean, se descargan o se documentan en README)
+*.parquet
+*.pickle
+*.pkl
+*.h5
+*.hdf5
+**/data/raw/
+**/data/external/
+**/data/interim/
+**/data/processed/
+**/datasets/
+**/cache_*/
+
+# Outputs auto-generados
+**/outputs/*.png
+**/outputs/*.html
+
+# Notas privadas / scratch
+tools/
+scratch/
+.claude/
