@@ -23,16 +23,16 @@ Each subproject is a stand-alone repository with its own `README.md`, `requireme
 
 The AI-side projects of this body of work live in their own repositories:
 
-- **[`miax-redes-bayesianas`](https://github.com/JavierFernandezGuerra/miax-redes-bayesianas)** — DAG-based causal discovery on macro returns; reproduces the _factor mirage_ from López de Prado & Zoonekynd (2025).
-- **[`miax-redes-neuronales`](https://github.com/JavierFernandezGuerra/miax-redes-neuronales)** — Deep learning for S&P 500 return forecasting (64 model variants across MLP / RNN / CNN / mixed architectures) and a model-driven portfolio backtest on 2025.
+- **[`miax-bayesian-networks`](https://github.com/JavierFernandezGuerra/miax-bayesian-networks)** — DAG-based causal discovery on macro returns; reproduces the _factor mirage_ from López de Prado & Zoonekynd (2025).
+- **[`miax-neural-networks`](https://github.com/JavierFernandezGuerra/miax-neural-networks)** — Deep learning for S&P 500 return forecasting (64 model variants across MLP / RNN / CNN / mixed architectures) and a model-driven portfolio backtest on 2025.
 
 ## How to navigate
 
 Each subproject is independent. The typical flow is:
 
 ```bash
-git clone https://github.com/JavierFernandezGuerra/miax-finanzas.git
-cd miax-finanzas/05-backtesting          # or any other
+git clone https://github.com/JavierFernandezGuerra/miax-finance.git
+cd miax-finance/05-backtesting          # or any other
 python -m venv .venv
 .venv\Scripts\activate                   # Windows
 pip install -r requirements.txt
@@ -44,7 +44,7 @@ Notebooks are written to be executed linearly (_Restart & Run All_). When a proj
 ## Repository layout
 
 ```
-miax-finanzas/
+miax-finance/
 ├── 01-renta-fija/              # corporate-bond portfolio with LP optimisation
 ├── 02-renta-variable/          # HF arbitrage across fragmented venues
 ├── 03-derivados/               # delta-hedged straddle on SPY (BS + IBKR)
